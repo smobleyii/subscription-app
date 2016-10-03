@@ -1,0 +1,43 @@
+{
+  "public": {
+    "plans": [
+      {
+        "name": "small",
+        "amount": {
+          "cents": 10000,
+          "usd": "$100"
+        },
+        "limit": 20,
+        "interval": "month"
+      },
+      {
+        "name": "medium",
+        "amount": {
+          "cents": 30000,
+          "usd": "$300"
+        },
+        "limit": 20,
+        "interval": "month"
+      },
+      {
+        "name": "large",
+        "amount": {
+          "cents": 60000,
+          "usd": "$600"
+        },
+        "limit": 20,
+        "interval": "month"
+      }
+    ],
+    "stripe": {
+      "testPublishableKey": "pk_test_ya8vwMHLNSRx3gP4BgUQdZ9T",
+      "livePublishableKey": "pk_live_VgF06AEno2Bkco2lO0Cn8JmK"
+    }
+  },
+  "private": {
+    "stripe": {
+      "testSecretKey": "sk_test_BwlgbfghhLJQp3LGlPPklclG",
+      "liveSecretKey": "sk_live_B3tEy0UwCIiPrQPRh3CoMvhK"
+    }
+  }
+}
