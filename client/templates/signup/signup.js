@@ -58,7 +58,7 @@ Template.signup.rendered = function(){
                   alert(error.reason);
                   submitButton.button('reset');
                 } else {
-                  Router.go('/profile');
+                  Router.go('/dashboard');
                   submitButton.button('reset');
                 }
               });
