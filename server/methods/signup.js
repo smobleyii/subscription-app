@@ -24,6 +24,7 @@ Meteor.methods({
           console.log(error);
         } else {
           try {
+
       var user = Accounts.createUser({
         email: customer.emailAddress,
         password: customer.password,
